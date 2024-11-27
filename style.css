@@ -1,0 +1,91 @@
+/* *{
+    box-sizing: content-box;
+    min-height:100vh;
+} */
+
+.top{
+    display:flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    /* border: 5px solid green; */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* border: 5px solid red; */
+    gap: 785px;
+    padding-top: 10px;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a{
+    color: #e5e7eb;
+    text-decoration: none;
+    padding: 5px;
+    /* border: 2px solid yellow; */
+}
+
+.tophalf{
+    display: flex;
+    /* border: 5px solid green; */
+    /* padding: 50px; */
+    flex-basis: 200px;
+    /* width:  */
+    gap: 50px;
+}
+
+
+
+.signup{
+    /* border: 5px solid yellow; */
+    flex:1;
+    color: white;
+
+}
+
+.image{
+    display: flex;
+    /* border:5px solid blue; */
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    height: 200px;
+    width: 100px;
+}
+
+
+.logo{
+    color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+button{
+    background-color: #3882F6;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    border: none;
+}
+
+h2{
+    font-size:xx-large;
+}
